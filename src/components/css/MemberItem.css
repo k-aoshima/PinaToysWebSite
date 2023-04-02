@@ -1,0 +1,56 @@
+.MemberItem{
+    font-size: 18px;
+    height: auto;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.member-contents{
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+}
+
+.peanuts-icon{
+    position: absolute;
+    top: 130px;
+    left: 125px;
+}
+
+.name-contents,
+.member-icon,
+.peanuts-icon{
+    float:left;
+    justify-content: space-between;
+}
+
+.member-name,
+.member-skill{
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.name-contents{
+    margin-left: 20px;
+    text-align: left;
+}
+
+.comment-box{
+    display: flex;
+    background-color: rgb(217, 217, 217);
+    clip-path: polygon(0 100%, 100% 100%, 100% 10%, 55% 10%, 50% 0, 45% 10%, 0 10%);
+    width: 350px;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.comment-text{
+	text-align: center;
+    padding-top: 20px;
+}
+
